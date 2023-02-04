@@ -1,0 +1,154 @@
+﻿@import url(layout.css);
+body {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-style: normal;
+	background-color:#80aaff;
+}
+#container {
+	width: 100%;
+	margin: 0;
+	background-color: #80aaff;
+	position: relative;
+	
+}
+#masthead {
+	width: 100%;
+	text-align:left;
+	font-size: 300%;
+	background-color: #80aaff;
+	color:#80aaff;
+	font-family:Comic Sans;
+        font-style:italic;
+}
+#mastheadm {
+	width: 100%;
+	text-align:left;
+	font-size: 300%;
+	background-color: #80aaff;
+	color:#000;
+	font-family:Comic Sans;
+        font-style:italic;
+}
+#navigation {
+	background-color:#80aaff;
+	overflow: hidden;
+	padding-left: 300px;
+}
+#page_content {
+	position: relative;
+	width: 100%;
+
+}
+#column_l {
+	position: relative;
+	margin: 0 350px 0 0;
+	padding: 0 2%;
+	background-color: #80aaff;
+	float: none;
+}
+#column_r {
+	float: none;
+	width: 100px;
+	margin: 0;
+	padding: 10px;
+	background-color: #80aaff;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#footer {
+	padding-bottom: 5px;
+	
+}
+
+/* Styles for Masthead */
+#masthead img {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+/* Styles for Navigation */
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float:left;
+	display:inline;
+	
+}
+#navigation a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	border: 1px solid #000;
+	background-color: #80aaff;
+	text-decoration: none;
+    	border-radius: 4px 4px 0 0;
+
+}
+#navigation a:hover {
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #fff;
+	background-color: #fff;
+
+}
+/* Styles for Content */
+h1 {
+	font-size: 2em;
+	color:  #000099;
+}
+h2 {
+	font-size: 1.75em;
+	color: #000099;
+}
+h3 {
+	font-size: 1.5em;
+	color: #000099;
+}
+h4 {
+	font-size: 1.25em;
+	color: #469;
+}
+h5 {
+	font-size: 0.75em;
+	color: #469;
+}
+h6 {
+	font-size: 0.5em;
+	color: #469;
+}
+h7{
+	font-size: 1.35em;
+	color: #000099;
+	}
+/* Styles for Footer */
+#footer p {
+	font-size: 1.00em;
+	color: #80aaff ;
+	margin: 0 350px 0 0;
+	padding: 0 2%;
+}
+
+}
+/* Styles for Links */
+a {
+	color: #469;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
